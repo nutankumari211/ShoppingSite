@@ -41,7 +41,7 @@ For more details about the APIs, refer to the [API documentation](https://dummyj
 
 ### Installation
 
-1. Go To project Director
+1. Go To project Directory
 
  cd projectdirectory
 

@@ -1,0 +1,198 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: white; /* Dark background color */
+}
+
+.navbar-brand {
+  color: #020101; 
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: #0f0b0b; /* White color for the toggle icon */
+}
+
+.navbar-nav .nav-link {
+  color: #040202; /* White text color for the links */
+  margin-right: 15px;
+}
+
+
+
+.navbar-nav .nav-item:hover .nav-link {
+  background-color: #fed943; /* Background color on hover */
+  padding: 10px; /* Adjust padding for the box around text */
+  border-radius: 5px; /* Add some border-radius for rounded corners */
+
+}
+.dropdown-menu {
+  background-color: #d9e8f7; /* Dark background color for the dropdown */
+}
+
+.dropdown-menu a {
+  color: #15130e; /* White text color for dropdown items */
+}
+
+.dropdown-menu a:hover {
+  background-color:white; /* Background color on hover for dropdown items */
+  color: #fed943; /* Text color on hover for dropdown items */
+}
+
+/* Add these styles to your CSS file */
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+/* ProductCategories.css */
+
+.custom-list-group {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #e2e6ea;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
+
+/* ProductByCategory.css */
+
+.product-category-container {
+  padding: 20px;
+}
+
+.category-title {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333; /* Added for better visibility */
+}
+
+.product-description {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 1.25rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.view-details-link {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.no-products-message {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+
+
+
+/* Footer */
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+  
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .copyright {
+    margin-top: 10px;
+    font-size: 12px;
+  }

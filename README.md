@@ -1,3 +1,6 @@
+
+# Hosting Link 
+https://jazzy-halva-4148bc.netlify.app/
 # React App 
 
 This project is a React app developed with Vite. It includes a navigation bar, home page, and consumes various APIs for product information.
